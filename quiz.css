@@ -1,0 +1,108 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.main-parent {
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-parent {
+  width: 40rem;
+  height: 33rem;
+  /* border: 2px solid yellow; */
+  background-color: white;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.remain-questions {
+  width: 38rem;
+  height: 5rem;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mcq-body {
+  width: 38rem;
+  margin-top: 2rem;
+  height: 25rem;
+  /* border: 2px solid black; */
+  padding-top: 2rem;
+}
+/* .mcq-question
+{
+    
+} */
+.multiple-choices {
+  margin-top: 1.5rem;
+  /* border: 2px solid pink; */
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+}
+.multiple-choices-options {
+  margin-left: 1rem;
+}
+.wait
+{
+  margin-top: 1rem;
+  margin-left: 2rem;
+  /* width: 5rem;
+  height: 2rem; */
+  padding: .5rem 2rem .5rem 2rem;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d4ed8;
+  color: white;
+  border-radius: 1rem;
+}
+.wait:hover
+{
+  background-color: #60a5fa;
+  cursor: pointer; 
+}
+.next-button {
+  margin-top: 2.5rem;
+  margin-left: 32rem;
+  /* width: 5rem;
+  height: 2rem; */
+  padding: .5rem 2rem .5rem 2rem;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d4ed8;
+  color: white;
+  border-radius: 1rem;
+}
+.next-button:hover {
+  background-color: #60a5fa;
+  cursor: pointer;
+}
+.hidden
+{
+  display: none;
+}
+.result-Marks
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  font-size: 5rem; /* Adjust font size as needed */
+    font-weight: bold;
+    color: #2ecc71; /* Green color for positive result */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
